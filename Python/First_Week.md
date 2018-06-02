@@ -44,6 +44,7 @@ min = a < b ? a:b
 
 ![flow_chart](https://user-images.githubusercontent.com/25660275/40874871-65892680-66b0-11e8-80c8-5040e61ad320.png)
 
+
 #### - 반복</br>
 ```python
 # Ex)
@@ -59,6 +60,7 @@ while i<= n:
 for문을 사용하게 될 경우
 for i in range(n):
   sum += i
+  i++
 """
 print("1부터 %d까지의 합은 %d입니다" % n, sum)
 ```
