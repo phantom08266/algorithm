@@ -40,8 +40,9 @@ else: print("이 수는 0 입니다")
 min = a < b ? a:b
 ```
 
-**순서도**
-[flow_chart](./images/flow_chart.jpg)
+**순서도**</br>
+
+![flow_chart](https://user-images.githubusercontent.com/25660275/40874871-65892680-66b0-11e8-80c8-5040e61ad320.png)
 
 #### - 반복</br>
 ```python
