@@ -41,7 +41,7 @@ min = a < b ? a:b
 ```
 
 **순서도**
-[flow_chart](./images/flow_chart.jpg)
+[flow_chart](https://github.com/phantom08266/algorithm/blob/Junewoo/Python/images/flow_chart.jpg)
 
 #### - 반복</br>
 ```python
