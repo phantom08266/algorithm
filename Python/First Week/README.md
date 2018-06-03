@@ -37,7 +37,7 @@ else: print("이 수는 0 입니다")
 **삼항 연산자**
 ```python
 # a < b 값이 참(True)일 경우 a, 거짓(False)일경우 b
-min = a < b ? a:b
+min = a if a < b else b
 ```
 
 **순서도**</br>
@@ -55,12 +55,12 @@ n = int(input("n의 값 :"))
 i = 1
 while i<= n:
   sum += i
-  i++
+  i += 1
 """
 for문을 사용하게 될 경우
 for i in range(n):
   sum += i
-  i++
+  i += 1
 """
 print("1부터 %d까지의 합은 %d입니다" % n, sum)
 ```
